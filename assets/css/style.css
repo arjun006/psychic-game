@@ -1,4 +1,6 @@
-
+.bg-style{
+    background: url(../images/congruent_pentagon.png);
+}
 .game-info{
     font-size:100px;
 }

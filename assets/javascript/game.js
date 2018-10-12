@@ -1,5 +1,6 @@
-//Psychic Game
+window.onload = function(){ 
 
+//Psychic Game
 var wins=0;
 var losses=0;
 var numberOfGuesses=9;
@@ -7,7 +8,6 @@ var lettersGuessed=[];
 var computerGuess;
 var playerGuess;
 
-//Click to play
 
 
 //Game Reset Function
@@ -18,6 +18,9 @@ function resetGame(){
     document.getElementById("lettersGuessed").innerHTML=lettersGuessed;
     game();
 };
+
+//Click to play
+//document.getElementById("play-btn").onclick("click")=resetGame();
 
 //When player runs out of guesses
 function noGuesses(){
@@ -80,3 +83,5 @@ function game(){
             
         };
     };
+};
+

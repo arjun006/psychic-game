@@ -19,8 +19,6 @@ function resetGame(){
     game();
 };
 
-//Click to play
-//document.getElementById("play-btn").onclick("click")=resetGame();
 
 //When player runs out of guesses
 function noGuesses(){
